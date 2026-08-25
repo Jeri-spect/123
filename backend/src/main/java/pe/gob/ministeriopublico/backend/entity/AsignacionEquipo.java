@@ -37,21 +37,70 @@ public class AsignacionEquipo {
     @Column(name = "fecha_registro")
     private LocalDateTime fechaRegistro;
 
-    public AsignacionEquipo() { }
-    public Integer getIdAsignacion() { return idAsignacion; }
-    public void setIdAsignacion(Integer idAsignacion) { this.idAsignacion = idAsignacion; }
-    public Equipo getEquipo() { return equipo; }
-    public void setEquipo(Equipo equipo) { this.equipo = equipo; }
-    public Despacho getDespacho() { return despacho; }
-    public void setDespacho(Despacho despacho) { this.despacho = despacho; }
-    public Personal getPersonal() { return personal; }
-    public void setPersonal(Personal personal) { this.personal = personal; }
-    public LocalDate getFechaInicio() { return fechaInicio; }
-    public void setFechaInicio(LocalDate fechaInicio) { this.fechaInicio = fechaInicio; }
-    public LocalDate getFechaFin() { return fechaFin; }
-    public void setFechaFin(LocalDate fechaFin) { this.fechaFin = fechaFin; }
-    public String getObservacion() { return observacion; }
-    public void setObservacion(String observacion) { this.observacion = observacion; }
-    public LocalDateTime getFechaRegistro() { return fechaRegistro; }
-    public void setFechaRegistro(LocalDateTime fechaRegistro) { this.fechaRegistro = fechaRegistro; }
+    public AsignacionEquipo() {
+    }
+
+    public Integer getIdAsignacion() {
+        return idAsignacion;
+    }
+
+    public void setIdAsignacion(Integer idAsignacion) {
+        this.idAsignacion = idAsignacion;
+    }
+
+    public Equipo getEquipo() {
+        return equipo;
+    }
+
+    public void setEquipo(Equipo equipo) {
+        this.equipo = equipo;
+    }
+
+    public Despacho getDespacho() {
+        return despacho;
+    }
+
+    public void setDespacho(Despacho despacho) {
+        this.despacho = despacho;
+    }
+
+    public Personal getPersonal() {
+        return personal;
+    }
+
+    public void setPersonal(Personal personal) {
+        this.personal = personal;
+    }
+
+    public LocalDate getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public void setFechaInicio(LocalDate fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
+
+    public LocalDate getFechaFin() {
+        return fechaFin;
+    }
+
+    public void setFechaFin(LocalDate fechaFin) {
+        this.fechaFin = fechaFin;
+    }
+
+    public String getObservacion() {
+        return observacion;
+    }
+
+    public void setObservacion(String observacion) {
+        this.observacion = observacion;
+    }
+
+    public LocalDateTime getFechaRegistro() {
+        return fechaRegistro;
+    }
+
+    public void setFechaRegistro(LocalDateTime fechaRegistro) {
+        this.fechaRegistro = fechaRegistro;
+    }
 }
