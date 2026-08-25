@@ -18,9 +18,22 @@ public class DistritoFiscal {
     @Column(name = "nombre_distrito", nullable = false, length = 150)
     private String nombreDistrito;
 
-    public DistritoFiscal() { }
-    public Integer getIdDistritoFiscal() { return idDistritoFiscal; }
-    public void setIdDistritoFiscal(Integer idDistritoFiscal) { this.idDistritoFiscal = idDistritoFiscal; }
-    public String getNombreDistrito() { return nombreDistrito; }
-    public void setNombreDistrito(String nombreDistrito) { this.nombreDistrito = nombreDistrito; }
+    public DistritoFiscal() {
+    }
+
+    public Integer getIdDistritoFiscal() {
+        return idDistritoFiscal;
+    }
+
+    public void setIdDistritoFiscal(Integer idDistritoFiscal) {
+        this.idDistritoFiscal = idDistritoFiscal;
+    }
+
+    public String getNombreDistrito() {
+        return nombreDistrito;
+    }
+
+    public void setNombreDistrito(String nombreDistrito) {
+        this.nombreDistrito = nombreDistrito;
+    }
 }

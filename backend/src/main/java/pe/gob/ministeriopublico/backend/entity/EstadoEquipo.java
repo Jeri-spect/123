@@ -21,11 +21,30 @@ public class EstadoEquipo {
     @Column(length = 250)
     private String descripcion;
 
-    public EstadoEquipo() { }
-    public Integer getIdEstadoEquipo() { return idEstadoEquipo; }
-    public void setIdEstadoEquipo(Integer idEstadoEquipo) { this.idEstadoEquipo = idEstadoEquipo; }
-    public String getNombreEstado() { return nombreEstado; }
-    public void setNombreEstado(String nombreEstado) { this.nombreEstado = nombreEstado; }
-    public String getDescripcion() { return descripcion; }
-    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+    public EstadoEquipo() {
+    }
+
+    public Integer getIdEstadoEquipo() {
+        return idEstadoEquipo;
+    }
+
+    public void setIdEstadoEquipo(Integer idEstadoEquipo) {
+        this.idEstadoEquipo = idEstadoEquipo;
+    }
+
+    public String getNombreEstado() {
+        return nombreEstado;
+    }
+
+    public void setNombreEstado(String nombreEstado) {
+        this.nombreEstado = nombreEstado;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }

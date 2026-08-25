@@ -40,25 +40,86 @@ public class Mantenimiento {
     @Column(name = "fecha_registro")
     private LocalDateTime fechaRegistro;
 
-    public Mantenimiento() { }
-    public Integer getIdMantenimiento() { return idMantenimiento; }
-    public void setIdMantenimiento(Integer idMantenimiento) { this.idMantenimiento = idMantenimiento; }
-    public Equipo getEquipo() { return equipo; }
-    public void setEquipo(Equipo equipo) { this.equipo = equipo; }
-    public TipoMantenimiento getTipoMantenimiento() { return tipoMantenimiento; }
-    public void setTipoMantenimiento(TipoMantenimiento tipoMantenimiento) { this.tipoMantenimiento = tipoMantenimiento; }
-    public LocalDate getFechaMantenimiento() { return fechaMantenimiento; }
-    public void setFechaMantenimiento(LocalDate fechaMantenimiento) { this.fechaMantenimiento = fechaMantenimiento; }
-    public String getDiagnostico() { return diagnostico; }
-    public void setDiagnostico(String diagnostico) { this.diagnostico = diagnostico; }
-    public String getTrabajoRealizado() { return trabajoRealizado; }
-    public void setTrabajoRealizado(String trabajoRealizado) { this.trabajoRealizado = trabajoRealizado; }
-    public String getRepuesto() { return repuesto; }
-    public void setRepuesto(String repuesto) { this.repuesto = repuesto; }
-    public String getResponsableMantenimiento() { return responsableMantenimiento; }
-    public void setResponsableMantenimiento(String responsableMantenimiento) { this.responsableMantenimiento = responsableMantenimiento; }
-    public String getObservacion() { return observacion; }
-    public void setObservacion(String observacion) { this.observacion = observacion; }
-    public LocalDateTime getFechaRegistro() { return fechaRegistro; }
-    public void setFechaRegistro(LocalDateTime fechaRegistro) { this.fechaRegistro = fechaRegistro; }
+    public Mantenimiento() {
+    }
+
+    public Integer getIdMantenimiento() {
+        return idMantenimiento;
+    }
+
+    public void setIdMantenimiento(Integer idMantenimiento) {
+        this.idMantenimiento = idMantenimiento;
+    }
+
+    public Equipo getEquipo() {
+        return equipo;
+    }
+
+    public void setEquipo(Equipo equipo) {
+        this.equipo = equipo;
+    }
+
+    public TipoMantenimiento getTipoMantenimiento() {
+        return tipoMantenimiento;
+    }
+
+    public void setTipoMantenimiento(TipoMantenimiento tipoMantenimiento) {
+        this.tipoMantenimiento = tipoMantenimiento;
+    }
+
+    public LocalDate getFechaMantenimiento() {
+        return fechaMantenimiento;
+    }
+
+    public void setFechaMantenimiento(LocalDate fechaMantenimiento) {
+        this.fechaMantenimiento = fechaMantenimiento;
+    }
+
+    public String getDiagnostico() {
+        return diagnostico;
+    }
+
+    public void setDiagnostico(String diagnostico) {
+        this.diagnostico = diagnostico;
+    }
+
+    public String getTrabajoRealizado() {
+        return trabajoRealizado;
+    }
+
+    public void setTrabajoRealizado(String trabajoRealizado) {
+        this.trabajoRealizado = trabajoRealizado;
+    }
+
+    public String getRepuesto() {
+        return repuesto;
+    }
+
+    public void setRepuesto(String repuesto) {
+        this.repuesto = repuesto;
+    }
+
+    public String getResponsableMantenimiento() {
+        return responsableMantenimiento;
+    }
+
+    public void setResponsableMantenimiento(String responsableMantenimiento) {
+        this.responsableMantenimiento = responsableMantenimiento;
+    }
+
+    public String getObservacion() {
+        return observacion;
+    }
+
+    public void setObservacion(String observacion) {
+        this.observacion = observacion;
+    }
+
+    public LocalDateTime getFechaRegistro() {
+        return fechaRegistro;
+    }
+
+    public void setFechaRegistro(LocalDateTime fechaRegistro) {
+        this.fechaRegistro = fechaRegistro;
+    }
 }

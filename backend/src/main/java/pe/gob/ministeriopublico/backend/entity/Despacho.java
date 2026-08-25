@@ -27,13 +27,38 @@ public class Despacho {
     @Column(name = "tipo_proceso", length = 100)
     private String tipoProceso;
 
-    public Despacho() { }
-    public Integer getIdDespacho() { return idDespacho; }
-    public void setIdDespacho(Integer idDespacho) { this.idDespacho = idDespacho; }
-    public Sede getSede() { return sede; }
-    public void setSede(Sede sede) { this.sede = sede; }
-    public String getNombreDespacho() { return nombreDespacho; }
-    public void setNombreDespacho(String nombreDespacho) { this.nombreDespacho = nombreDespacho; }
-    public String getTipoProceso() { return tipoProceso; }
-    public void setTipoProceso(String tipoProceso) { this.tipoProceso = tipoProceso; }
+    public Despacho() {
+    }
+
+    public Integer getIdDespacho() {
+        return idDespacho;
+    }
+
+    public void setIdDespacho(Integer idDespacho) {
+        this.idDespacho = idDespacho;
+    }
+
+    public Sede getSede() {
+        return sede;
+    }
+
+    public void setSede(Sede sede) {
+        this.sede = sede;
+    }
+
+    public String getNombreDespacho() {
+        return nombreDespacho;
+    }
+
+    public void setNombreDespacho(String nombreDespacho) {
+        this.nombreDespacho = nombreDespacho;
+    }
+
+    public String getTipoProceso() {
+        return tipoProceso;
+    }
+
+    public void setTipoProceso(String tipoProceso) {
+        this.tipoProceso = tipoProceso;
+    }
 }

@@ -21,11 +21,30 @@ public class TipoPersonal {
     @Column(length = 250)
     private String descripcion;
 
-    public TipoPersonal() { }
-    public Integer getIdTipoPersonal() { return idTipoPersonal; }
-    public void setIdTipoPersonal(Integer idTipoPersonal) { this.idTipoPersonal = idTipoPersonal; }
-    public String getNombreTipoPersonal() { return nombreTipoPersonal; }
-    public void setNombreTipoPersonal(String nombreTipoPersonal) { this.nombreTipoPersonal = nombreTipoPersonal; }
-    public String getDescripcion() { return descripcion; }
-    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+    public TipoPersonal() {
+    }
+
+    public Integer getIdTipoPersonal() {
+        return idTipoPersonal;
+    }
+
+    public void setIdTipoPersonal(Integer idTipoPersonal) {
+        this.idTipoPersonal = idTipoPersonal;
+    }
+
+    public String getNombreTipoPersonal() {
+        return nombreTipoPersonal;
+    }
+
+    public void setNombreTipoPersonal(String nombreTipoPersonal) {
+        this.nombreTipoPersonal = nombreTipoPersonal;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }

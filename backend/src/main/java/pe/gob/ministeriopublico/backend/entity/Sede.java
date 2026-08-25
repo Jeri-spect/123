@@ -28,13 +28,38 @@ public class Sede {
     @Column(length = 300)
     private String direccion;
 
-    public Sede() { }
-    public Integer getIdSede() { return idSede; }
-    public void setIdSede(Integer idSede) { this.idSede = idSede; }
-    public DistritoFiscal getDistritoFiscal() { return distritoFiscal; }
-    public void setDistritoFiscal(DistritoFiscal distritoFiscal) { this.distritoFiscal = distritoFiscal; }
-    public String getNombreSede() { return nombreSede; }
-    public void setNombreSede(String nombreSede) { this.nombreSede = nombreSede; }
-    public String getDireccion() { return direccion; }
-    public void setDireccion(String direccion) { this.direccion = direccion; }
+    public Sede() {
+    }
+
+    public Integer getIdSede() {
+        return idSede;
+    }
+
+    public void setIdSede(Integer idSede) {
+        this.idSede = idSede;
+    }
+
+    public DistritoFiscal getDistritoFiscal() {
+        return distritoFiscal;
+    }
+
+    public void setDistritoFiscal(DistritoFiscal distritoFiscal) {
+        this.distritoFiscal = distritoFiscal;
+    }
+
+    public String getNombreSede() {
+        return nombreSede;
+    }
+
+    public void setNombreSede(String nombreSede) {
+        this.nombreSede = nombreSede;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
 }

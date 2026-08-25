@@ -28,13 +28,38 @@ public class Modelo {
     @Column(length = 250)
     private String descripcion;
 
-    public Modelo() { }
-    public Integer getIdModelo() { return idModelo; }
-    public void setIdModelo(Integer idModelo) { this.idModelo = idModelo; }
-    public Marca getMarca() { return marca; }
-    public void setMarca(Marca marca) { this.marca = marca; }
-    public String getNombreModelo() { return nombreModelo; }
-    public void setNombreModelo(String nombreModelo) { this.nombreModelo = nombreModelo; }
-    public String getDescripcion() { return descripcion; }
-    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+    public Modelo() {
+    }
+
+    public Integer getIdModelo() {
+        return idModelo;
+    }
+
+    public void setIdModelo(Integer idModelo) {
+        this.idModelo = idModelo;
+    }
+
+    public Marca getMarca() {
+        return marca;
+    }
+
+    public void setMarca(Marca marca) {
+        this.marca = marca;
+    }
+
+    public String getNombreModelo() {
+        return nombreModelo;
+    }
+
+    public void setNombreModelo(String nombreModelo) {
+        this.nombreModelo = nombreModelo;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }

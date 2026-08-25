@@ -21,11 +21,30 @@ public class TipoMantenimiento {
     @Column(length = 250)
     private String descripcion;
 
-    public TipoMantenimiento() { }
-    public Integer getIdTipoMantenimiento() { return idTipoMantenimiento; }
-    public void setIdTipoMantenimiento(Integer idTipoMantenimiento) { this.idTipoMantenimiento = idTipoMantenimiento; }
-    public String getNombreTipo() { return nombreTipo; }
-    public void setNombreTipo(String nombreTipo) { this.nombreTipo = nombreTipo; }
-    public String getDescripcion() { return descripcion; }
-    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+    public TipoMantenimiento() {
+    }
+
+    public Integer getIdTipoMantenimiento() {
+        return idTipoMantenimiento;
+    }
+
+    public void setIdTipoMantenimiento(Integer idTipoMantenimiento) {
+        this.idTipoMantenimiento = idTipoMantenimiento;
+    }
+
+    public String getNombreTipo() {
+        return nombreTipo;
+    }
+
+    public void setNombreTipo(String nombreTipo) {
+        this.nombreTipo = nombreTipo;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }

@@ -18,9 +18,22 @@ public class Marca {
     @Column(name = "nombre_marca", nullable = false)
     private String nombreMarca;
 
-    public Marca() { }
-    public Integer getIdMarca() { return idMarca; }
-    public void setIdMarca(Integer idMarca) { this.idMarca = idMarca; }
-    public String getNombreMarca() { return nombreMarca; }
-    public void setNombreMarca(String nombreMarca) { this.nombreMarca = nombreMarca; }
+    public Marca() {
+    }
+
+    public Integer getIdMarca() {
+        return idMarca;
+    }
+
+    public void setIdMarca(Integer idMarca) {
+        this.idMarca = idMarca;
+    }
+
+    public String getNombreMarca() {
+        return nombreMarca;
+    }
+
+    public void setNombreMarca(String nombreMarca) {
+        this.nombreMarca = nombreMarca;
+    }
 }

@@ -12,7 +12,8 @@ import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;
 
 @Entity
-@Table(name = "usuario_rol", uniqueConstraints = @UniqueConstraint(name = "uq_usuario_rol", columnNames = { "id_usuario", "id_rol" }))
+@Table(name = "usuario_rol", uniqueConstraints = @UniqueConstraint(name = "uq_usuario_rol", columnNames = {
+        "id_usuario", "id_rol" }))
 public class UsuarioRol {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,11 +26,30 @@ public class UsuarioRol {
     @JoinColumn(name = "id_rol", nullable = false)
     private Rol rol;
 
-    public UsuarioRol() { }
-    public Integer getIdUsuarioRol() { return idUsuarioRol; }
-    public void setIdUsuarioRol(Integer idUsuarioRol) { this.idUsuarioRol = idUsuarioRol; }
-    public Usuario getUsuario() { return usuario; }
-    public void setUsuario(Usuario usuario) { this.usuario = usuario; }
-    public Rol getRol() { return rol; }
-    public void setRol(Rol rol) { this.rol = rol; }
+    public UsuarioRol() {
+    }
+
+    public Integer getIdUsuarioRol() {
+        return idUsuarioRol;
+    }
+
+    public void setIdUsuarioRol(Integer idUsuarioRol) {
+        this.idUsuarioRol = idUsuarioRol;
+    }
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+
+    public Rol getRol() {
+        return rol;
+    }
+
+    public void setRol(Rol rol) {
+        this.rol = rol;
+    }
 }
